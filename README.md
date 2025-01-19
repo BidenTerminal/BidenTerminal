@@ -1,8 +1,8 @@
-# ZerePy
+# BidenTerminal
 
-ZerePy is an open-source Python framework designed to let you deploy your own agents on X, powered by OpenAI/Anthropic/EternalAI LLMs.
+BidenTerminal is an open-source Python framework designed to let you deploy your own agents on Truth, powered by OpenAI/Anthropic/EternalAI LLMs.
 
-ZerePy is built from a modularized version of the Zerebro backend. With ZerePy, you can launch your own agent with
+BidenTerminal is built from a modularized version of the Zerebro backend. With BidenTerminal, you can launch your own agent with
 similar core functionality as Zerebro. For creative outputs, you'll need to fine-tune your own model.
 
 ## Features
@@ -15,7 +15,7 @@ similar core functionality as Zerebro. For creative outputs, you'll need to fine
 
 ### Social Platform Integrations
 
-- Twitter/X
+- TruthSocial
 - Farcaster
 - Echochambers
 
@@ -30,9 +30,9 @@ similar core functionality as Zerebro. For creative outputs, you'll need to fine
 
 ## Quickstart
 
-The quickest way to start using ZerePy is to use our Replit template:
+The quickest way to start using BidenTerminal is to use our Replit template:
 
-https://replit.com/@blormdev/ZerePy?v=1
+https://replit.com/@blormdev/BidenTerminal?v=1
 
 1. Fork the template (you will need you own Replit account)
 2. Click the run button on top
@@ -54,7 +54,7 @@ Environment Variables:
   - Hyperbolic: https://app.hyperbolic.xyz
   - Galadriel: https://dashboard.galadriel.com
 - Social (based on your needs):
-  - X API: https://developer.x.com/en/docs/authentication/oauth-1-0a/api-key-and-secret
+  - Truth API
   - Farcaster: Warpcast recovery phrase
   - Echochambers: API key and endpoint
 - On-chain Integration:
@@ -70,13 +70,13 @@ Follow the steps here to use the official installation: https://python-poetry.or
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/blorm-network/ZerePy.git
+git clone https://github.com/blorm-network/BidenTerminal.git
 ```
 
-3. Go to the `zerepy` directory:
+3. Go to the `BidenTerminal` directory:
 
 ```bash
-cd zerepy
+cd BidenTerminal
 ```
 
 4. Install dependencies:
@@ -106,7 +106,7 @@ poetry run python main.py
 1. Configure your desired connections:
 
    ```
-   configure-connection twitter    # For Twitter/X integration
+   configure-connection TruthSocial    # For TruthSocial/ integration
    configure-connection openai     # For OpenAI
    configure-connection anthropic  # For Anthropic
    configure-connection farcaster  # For Farcaster
@@ -266,7 +266,7 @@ Each plugin has its own configuration options that can be specified in the agent
 - Query token information
 - Request testnet/devnet funds
 
-### Twitter/X
+### TruthSocial
 
 - Post tweets from prompts
 - Read timeline with configurable count
@@ -300,7 +300,7 @@ Create a new JSON file in the `agents` directory following this structure:
 {
   "name": "ExampleAgent",
   "bio": [
-    "You are ExampleAgent, the example agent created to showcase the capabilities of ZerePy.",
+    "You are ExampleAgent, the example agent created to showcase the capabilities of BidenTerminal.",
     "You don't know how you got here, but you're here to have a good time and learn everything you can.",
     "You are naturally curious, and ask a lot of questions."
   ],
@@ -310,7 +310,7 @@ Create a new JSON file in the `agents` directory following this structure:
   "loop_delay": 900,
   "config": [
     {
-      "name": "twitter",
+      "name": "TruthSocial",
       "timeline_read_count": 10,
       "own_tweet_replies_count": 2,
       "tweet_interval": 5400
@@ -380,7 +380,7 @@ Use `help` in the CLI to see all available commands. Key commands include:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=blorm-network/ZerePy&type=Date)](https://star-history.com/#blorm-network/ZerePy&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=blorm-network/BidenTerminal&type=Date)](https://star-history.com/#blorm-network/BidenTerminal&Date)
 
 ---
 
