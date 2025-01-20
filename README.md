@@ -1,5 +1,7 @@
 # BidenTerminal
 
+https://truthsocial.com/@pclntzkd
+
 BidenTerminal is an open-source Python framework designed to let you deploy your own agents on Truth, powered by OpenAI/Anthropic/EternalAI LLMs.
 
 BidenTerminal is built from a modularized version of the Zerebro backend. With BidenTerminal, you can launch your own agent with
